@@ -1,22 +1,14 @@
-header > h1 {
-  /*display: table-cell;*/
-  /*vertical-align:middle*/
-}
 header h1 {display:table-cell; vertical-align:middle}
 
+section {
+  margin-top: 150px;
+}
+
 .parallax-container {
-   height: 400px;
+   height: 300px;
    text-align: center;
    display: table;
    width: 100%;
- }
-
-section {
-    margin-top: 100px;
-}
- .about {
-
-   /*height: 5000px;*/
  }
 
  .skills {
@@ -26,4 +18,8 @@ section {
   font-size: 14px;
   /*color: blue;*/
   text-decoration: underline;
+}
+.dev-icons {
+  height: 50px;
+  widht: 50px;
 }
