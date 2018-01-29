@@ -1,0 +1,29 @@
+header > h1 {
+  /*display: table-cell;*/
+  /*vertical-align:middle*/
+}
+header h1 {display:table-cell; vertical-align:middle}
+
+.parallax-container {
+   height: 400px;
+   text-align: center;
+   display: table;
+   width: 100%;
+ }
+
+section {
+    margin-top: 100px;
+}
+ .about {
+
+   /*height: 5000px;*/
+ }
+
+ .skills {
+   text-align: center;
+ }
+.coding-tag {
+  font-size: 14px;
+  /*color: blue;*/
+  text-decoration: underline;
+}
