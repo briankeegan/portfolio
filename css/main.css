@@ -23,3 +23,26 @@ section {
   height: 50px;
   width: 50px;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 999;
+  opacity: 0;
+}
+
+.link-1 {
+  margin-right: 50px;
+}
+.external-link {
+  height: 30px;
+  width: 30px;
+}
+.card-content {
+  background: #F6FFF8;
+}
+
+.activator:hover {
+  cursor: pointer;
+}
