@@ -40,3 +40,7 @@ header h1 {display:table-cell; vertical-align:middle}
 footer, nav {
   opacity: .8;
 }
+
+section {
+  margin-top: 139px;
+}
