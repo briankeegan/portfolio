@@ -1,9 +1,5 @@
 header h1 {display:table-cell; vertical-align:middle}
 
-section {
-  margin-top: 150px;
-}
-
 .parallax-container {
    height: 300px;
    text-align: center;
@@ -11,9 +7,9 @@ section {
    width: 100%;
  }
 
- .skills {
-   text-align: center;
- }
+.skills {
+  text-align: center;
+}
 .coding-tag {
   font-size: 14px;
   /*color: blue;*/
@@ -32,17 +28,15 @@ section {
   opacity: 0;
 }
 
-.link-1 {
-  margin-right: 50px;
-}
-.external-link {
-  height: 30px;
-  width: 30px;
-}
 .card-content {
+  /**/change
   background: #F6FFF8;
 }
 
 .activator:hover {
   cursor: pointer;
+}
+
+footer, nav {
+  opacity: .8;
 }
