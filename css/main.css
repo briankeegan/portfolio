@@ -1,11 +1,24 @@
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+/*mono*/
+/*font-family: 'Anonymous Pro', monospace;*/
+
+  letter-spacing: 1.1px;
+
+}
 header h1 {display:table-cell; vertical-align:middle}
 
 .parallax-container {
-   height: 300px;
+   max-height: 350px;
    text-align: center;
    display: table;
    width: 100%;
  }
+
+.parallax > img {
+  width: 100%;
+}
 
 .skills {
   text-align: center;
@@ -43,4 +56,49 @@ footer, nav {
 
 section {
   margin-top: 139px;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  max-width: 100%;
+
+  -moz-transition: -moz-transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+.card:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.sara-bagarimi img {
+  max-width: 100%;
+
+ transform-origin: top;
+  -moz-transition: -moz-transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+.sara-bagarimi:hover img {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.morkeg img {
+  max-width: 100%;
+
+ transform-origin: top left;
+  -moz-transition: -moz-transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+.morkeg:hover img {
+  -moz-transform: scale(1.7);
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
 }
