@@ -1,3 +1,8 @@
+const backToTop = () => {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 800) }
+
 $( document ).ready(function() {
   $(".button-collapse").sideNav()
   $('.parallax').parallax()
@@ -18,10 +23,9 @@ $( document ).ready(function() {
     }
 })
 
-  $('.back-to-top').on('click', () => {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 800) })
+  $('.back-to-top').on('click', backToTop)
+  $('.back-to-top').on('click', backToTop)
+  $('.brand-logo').on('click', backToTop)
 
 
 })
