@@ -4,7 +4,7 @@
   letter-spacing: 1.1px;
 }
 
-header h1 {
+header .img-text{
   display:table-cell;
   vertical-align:middle;
   color: white;
@@ -126,4 +126,8 @@ section {
 }
 .footer-body {
   text-align: center;
+}
+
+.resume {
+  font-size: 18px;
 }
