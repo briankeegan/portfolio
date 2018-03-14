@@ -20,27 +20,27 @@
 
 <body>
 
-  <div class="navbar navbar-fixed scrollspy">
-    <nav class="blue darken-2">
+  <div class="navbar navbar-fixed">
+    <nav class="blueish">
       <div class="container">
         <div class="nav-wrapper">
             <a href="#!" class="brand-logo" >Brian Keegan</a>
           <a href="#" data-activates="mobile-sidebar" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#about">About</a></li>
-            <li><a href="#technologies">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" class="about-click">About</a></li>
+            <li><a href="#technologies" class="technologies-click">Skills</a></li>
+            <li><a href="#portfolio" class="portfolio-click">Portfolio</a></li>
+            <li><a href="#contact" class="contact-click">Contact</a></li>
             </ul>
         </div>
       </div>
     </nav>
   </div>
   <ul class="side-nav" id="mobile-sidebar">
-    <li><a href="#about">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#technologies">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about" class="about-click">About</a></li>
+    <li><a href="#technologies" class="technologies-click">Skills</a></li>
+    <li><a href="#portfolio" class="portfolio-click">Portfolio</a></li>
+    <li><a href="#contact" class="contact-click">Contact</a></li>
   </ul>
 
   <header class="parallax-container">
@@ -52,24 +52,24 @@
   </header>
   <!-- about -->
   <main>
-    <section class="about section scrollspy" id="about">
+    <section class="about section" id="about">
       <div class="container">
-        <div class="row">
-          <div class="col m4">
-            <img class="responsive-img circle z-depth-3" src="images/normpic.jpg" alt="Photo of Brian Keegan">
+        <div class="row v-align">
+          <div class="col s12 l4 center">
+              <img class="responsive-img circle z-depth-3" src="images/normpic.jpg" alt="Photo of Brian Keegan">
           </div>
-          <div class="col m8">
+          <div class="col s12 l8">
             <h2>Hello,</h2>
             <p>I’m a self taught programmer with systemic approach towards building and an affinity for well organized code.  Graduating from UC Berkeley in Philosophy laid an excellent foundation for programming.  I am great at logic solving problems and quick to learn complex systems.</p>
             <p>Working freelance for the last couple of years has enabled me to effectively communicate my programming ideas, both to technical and nontechnical people.  It also pushes you beyond what you realize you’re capable of,  working with unfamiliar languages or frameworks.</p>
             <p>My favorite web application I’ve built is a responsive <a href="#portfolio">sound dictionary</a>.   Within the app are links to 16 different sound dictionaries, all of which play the audio of words and sentences that are  clicked and update page-number and url fragment when scrolled.</p>
-            <a class="waves-effect waves-light btn-large purple resume" href="images/briankeeganresume.pdf" target="_blank">Resume</a>
+            <a class="waves-effect waves-light btn-large purpleish resume" href="images/briankeeganresume.pdf" target="_blank">Resume</a>
           </div>
         </div>
       </div>
 
     </section>
-    <section class="skills section scrollspy" id="technologies">
+    <section class="skills section" id="technologies">
       <div class="container">
         <h2>Technical Skills</h2>
 
@@ -196,7 +196,7 @@
     <section class="parallax-container">
       <div class="parallax"><img src="images/pexels-photo-373072-7.jpeg" alt="techy-image" /></div>
     </section>
-    <section id="portfolio" class="section scrollspy">
+    <section id="portfolio" class="portfolio section">
       <div class="container">
         <h1>Portfolio</h1>
         <!-- projects -->
@@ -348,9 +348,12 @@ Bucketlist app has a mongo database, an Express API framework backend and a java
 
   </main>
 
-  <footer class="page-footer blue darken-2 section scrollspy" id="contact">
+  <footer class="page-footer section blueish" id="contact">
     <div class="container">
       <div class="footer-body">
+            <div class="row centered">
+              <h3>Contact me!</h3>
+            </div>
             <div class="row">
             <div class="col s4">
               <a href="mailto:briankeeganwebdesign@gmail.com" class="btn-floating btn-large waves-effect waves-light grey darken-3"><i class="material-icons">email</i></a>
@@ -370,7 +373,7 @@ Bucketlist app has a mongo database, an Express API framework backend and a java
       </div>
     </div>
   </footer>
-  <a class="btn-floating btn-large waves-effect waves-light purple back-to-top"><i class="material-icons">arrow_upward</i></a>
+  <a class="btn-floating btn-large waves-effect waves-light purpleish back-to-top"><i class="material-icons">arrow_upward</i></a>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>

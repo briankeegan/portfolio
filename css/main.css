@@ -13,6 +13,7 @@ header .img-text{
 .about p {
   font-size: 20px
 }
+
 .parallax-container {
    max-height: 350px;
    text-align: center;
@@ -39,7 +40,7 @@ header .img-text{
   justify-content: flex-start;
 }
 .item {
-  background: tomato;
+  background: #254547;
   padding: 4px 12px 4px 12px;
   line-height: 50px;
   color: white;
@@ -72,11 +73,7 @@ header .img-text{
 }
 
 footer, nav {
-  opacity: .8;
-}
-
-section {
-  margin-top: 139px;
+  opacity: .95;
 }
 
 .card {
@@ -95,6 +92,41 @@ section {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+
+.side-nav {
+  background-color: #2C5784 !important;
+}
+
+.side-nav li>a {
+  color: #EDF2F2;
+  font-size: 1.2em;
+}
+
+.blueish{
+ background-color: #2C5784 !important;
+}
+
+.purpleish{
+ background-color: #7B287D !important;
+}
+
+.about {
+  background: #104F55;
+  color: #EDF2F2;
+}
+
+.skills {
+  background: #83ADAF;
+    color: #EDF2F2;
+}
+
+.portfolio {
+  background: #6D7E91;
+}
+
+.portfolio h1 {
+    color: #EDF2F2;
 }
 
 .sara-bagarimi img {
@@ -134,4 +166,17 @@ section {
 
 .btn-large i {
   font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .v-align {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
