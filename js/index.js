@@ -10,7 +10,7 @@ $( document ).ready(function() {
 
   $(window).scroll(() => {
     // declare variable
-    const top = $(this).scrollTop();
+    const top = $(this).scrollTop()
     const backToTop = $('.back-to-top')
 
     // if user scrolls down - show scroll to top button
@@ -22,28 +22,26 @@ $( document ).ready(function() {
     }
   })
 
-  $('.about-click').click(function () {
-    $('html, body').animate({
-      scrollTop: $('#about').offset().top - 64
-    }, 1000)
-  })
+  const addClickArray = [
+    'about',
+    'technologies',
+    'portfolio',
+    'contact'
+  ]
 
-  $('.technologies-click').click(function () {
-    $('html, body').animate({
-      scrollTop: $('#technologies').offset().top - 64
-    }, 1000)
-  })
+  const scrollOnClick = name => {
+    $(`.${name}-click`).click(function () {
 
-  $('.portfolio-click').click(function () {
-    $('html, body').animate({
-      scrollTop: $('#portfolio').offset().top - 64
-    }, 1000)
-  })
+      const navHeight = $('nav').height() - 1
 
-  $('.contact-click').click(function () {
-    $('html, body').animate({
-      scrollTop: $('#contact').offset().top - 64
-    }, 1000)
+      $('html, body').animate({
+        scrollTop: $(`#${name}`).offset().top - navHeight
+      }, 1000)
+    })
+  }
+
+  addClickArray.forEach(name => {
+    scrollOnClick(name)
   })
 
   $('.back-to-top').on('click', backToTop)

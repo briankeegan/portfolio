@@ -15,7 +15,7 @@ header .img-text{
 }
 
 .parallax-container {
-   max-height: 350px;
+   max-height: 200px;
    text-align: center;
    display: table;
    width: 100%;
@@ -26,7 +26,7 @@ header .img-text{
 }
 
 .skill-title {
-  text-align: right;
+  text-align: left;
 }
 .skill {
   padding: 0;
@@ -40,7 +40,7 @@ header .img-text{
   justify-content: flex-start;
 }
 .item {
-  background: #254547;
+  background: #1C3D60;
   padding: 4px 12px 4px 12px;
   line-height: 50px;
   color: white;
@@ -168,7 +168,35 @@ footer, nav {
   font-size: 2.2rem;
 }
 
+nav .brand-logo {
+  min-width: 176px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #2C5784;
+  font-weight: bold;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #1C3D60;
+  font-style: italic;
+}
+
+/*Tablet and bigger*/
+@media only screen and (min-width: 600px) {
+  .parallax-container {
+     max-height: 250px;
+   }
+  .skill-title {
+    text-align: right;
+  }
+}
+
+/*Desktop and bigger*/
 @media only screen and (min-width: 992px) {
+  .parallax-container {
+     max-height: 400px;
+   }
   .v-align {
     display: -webkit-box;
     display: -webkit-flex;
