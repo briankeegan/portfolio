@@ -128,6 +128,10 @@ section {
   text-align: center;
 }
 
-.resume {
-  font-size: 18px;
+.fab-icon-btn {
+  padding-top: 8px;
+}
+
+.btn-large i {
+  font-size: 2.2rem;
 }
