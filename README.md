@@ -51,3 +51,7 @@ Use bootstrapf framework in order easy for client to update
 Client Projects
 
 Use Image from Sound Dictionary
+
+const x = document.body.querySelectorAll('script')
+x[x.length -1].nextSibling
+x[x.length -1].nextElementSibling.style.display = "none"
